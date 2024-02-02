@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import headLogo from '../img/headLogo.png'
+import headLogo from '../img/headlogo.png'
 import telegram from '../img/telegram.png'
 import '../App.css'
 import { useTicket } from '../contexts/TicketContex'
