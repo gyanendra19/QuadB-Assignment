@@ -37,6 +37,7 @@ function Navbar() {
                     <div className='drop-down display-hidden'>
                         {data.map(el => (
                             <input type="text"
+                                key={el.base_unit}
                                 value={el.name.split('/')[0]}
                                 onClick={(e) => changeInput(e.target.value)}
                                 readOnly

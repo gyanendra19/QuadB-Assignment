@@ -50,7 +50,7 @@ function App() {
   }, [input, data])
 
   return (
-    <TicketContext.Provider value={[data, input, setInput, final, everyMinute]}>
+    <TicketContext.Provider value={[data, input, setInput, final]}>
     <>
     <div className='main'>
       <Navbar />
