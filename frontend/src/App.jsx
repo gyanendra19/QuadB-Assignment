@@ -17,6 +17,10 @@ function App() {
     .then(result => setData(result.data))
   },[])
 
+  useEffect(() => {
+    axios.patch('/api/v1/tickets/update')
+    .then(() => console.log('done'))
+  }, [input])
 
   // const everyMinute = () => {
 
