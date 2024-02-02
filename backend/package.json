@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "QuadB",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node server.js",
-    "build:js": "parcel build ./server.js --out-dir ./public/js --out-file bundle.js"
+    "start": "node server.js"
   },
   "author": "Gyanendra Verma",
   "license": "ISC",
